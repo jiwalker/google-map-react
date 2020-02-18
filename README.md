@@ -97,10 +97,10 @@ const handleApiLoaded = (map, maps) => {
 ...
 
 <GoogleMapReact
-  bootstrapURLKeys={{ key: /* YOUR KEY HERE */ }}
+  bootstrapURLKeys={{ key: AIzaSyAsNNI7-gYTzHNtIUJhztTRyfW6P-jXU7s }}
   defaultCenter={this.props.center}
   defaultZoom={this.props.zoom}
-  yesIWantToUseGoogleMapApiInternals
+  yesIWantToUseGoogleMapApiInternals = {true}
   onGoogleApiLoaded={({ map, maps }) => handleApiLoaded(map, maps)}
 >
   <AnyReactComponent
